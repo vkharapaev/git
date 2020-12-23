@@ -1,1 +1,7 @@
 git status -u -- показать все untracked файлы
+
+git remote prone origin -- удаляет локальные бранчи, которых нет в удаленном репозитории
+git branch -v           -- показывает удаленные бранчи
+git branch -r           -- remote branches
+git diff origin uit     -- удаленно
+git diff uit            -- локально
