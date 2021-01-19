@@ -5,3 +5,5 @@ git branch -v           -- показывает удаленные бранчи
 git branch -r           -- remote branches
 git diff origin uit     -- удаленно
 git diff uit            -- локально
+
+git reset --hard origin/master -- восстановить до состояния в ветке origin/master
