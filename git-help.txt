@@ -7,3 +7,6 @@ git diff origin uit     -- удаленно
 git diff uit            -- локально
 
 git reset --hard origin/master -- восстановить до состояния в ветке origin/master
+
+git stash -- добавление в хранилище
+git stash apply -- применение последних добавленных изменений
